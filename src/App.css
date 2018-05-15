@@ -1,0 +1,90 @@
+
+App {
+  text-align: center;
+}
+
+.App-logo {
+  animation: App-logo-spin infinite 20s linear;
+  height: 80px;
+}
+
+.App-header {
+  background-color: #222;
+  height: 100px;
+  padding: 20px;
+  color: white;
+}
+
+.App-title {
+  font-size: 1.5em;
+  background-color: #222;
+  color: white;
+  padding: 10px;
+  overflow: auto;
+}
+
+h1 span {
+  float: right;
+  color: lime;
+  font-size: 15px;
+  margin-top: 4.5px;
+
+}
+
+span {
+  float: right;
+  color: lime;
+    padding-right: 10px;
+
+
+}
+
+.coinInfo p {
+  padding-left: 10px;
+  font-size: 17px;
+
+}
+
+.App-intro {
+  font-size: large;
+  display: inline;
+}
+
+.balance {
+  background-color: black;
+  color: lime;
+  height: 303px;
+  padding: 60px;
+  overflow: auto;
+}
+
+.coinInfo {
+  text-align: left;
+  font-family: "Courier New", Courier, monospace;
+  width: 50%;
+  margin: 0 auto;
+
+}
+
+
+#chart {
+  background: #222;
+  color: lime;
+  width: 100%;
+
+}
+
+
+.flash {
+   animation-name: flash;
+    animation-duration: 0.5s;
+    animation-timing-function: linear;
+    animation-iteration-count: infinite;
+    animation-direction: alternate;
+    animation-play-state: running;
+}
+
+@keyframes flash {
+    from {color: black;}
+    to {color: lime;}
+}
