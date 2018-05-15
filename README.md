@@ -1,5 +1,5 @@
 # asset-demo
-demo of asset analytics using react and thord party API
+demo of asset analytics using react and third party API
 
 # stack
 - react
